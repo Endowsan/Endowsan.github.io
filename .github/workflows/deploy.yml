@@ -20,23 +20,23 @@ jobs:
        uses: actions/setup-node@v3
        with:
          node-version: 16
-         cache: npm
+         cache: yarn
     
      - name: Cache dependencies
        uses: actions/cache@v1
        with:
-        path: ~/.npm
+        path: ~/.yarn
         key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
         restore-keys: |
           ${{ runner.os }}-node-
 
      # パッケージをインストールする
      - name: Install dependencies
-       run: npm --frozen-lockfile
+       run: yarn --frozen-lockfile
 
      # ビルドする
      - name: Build
-       run: npm run build
+       run: yarn build
 
      # GitHub Pages にデプロイする
      - name: Deploy
