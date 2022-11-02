@@ -38,7 +38,7 @@ jobs:
      - name: Build
        run: yarn build
 
-     -run: yarn export
+     - run: yarn export
 
      # GitHub Pages にデプロイする
      - name: Deploy
