@@ -1,5 +1,5 @@
 {
-  "name": "blog",
+  "name": "src",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -23,7 +23,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "remark-toc": "^8.0.1",
-    "typescript": "4.8.4"
+    "typescript": "4.8.4",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.7",
