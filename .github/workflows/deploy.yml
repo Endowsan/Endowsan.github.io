@@ -20,7 +20,11 @@ jobs:
       uses: actions/cache@v1
       with:
         path: ~/.npm
+<<<<<<< HEAD
         key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+=======
+        key: ${{ runner.os }}-node-${{ hashFiles('*/blog/package-lock.json') }}
+>>>>>>> 0c4d3b3de955eab487e19a0f05275c7b47bf86d1
         restore-keys: |
           ${{ runner.os }}-node-
 
@@ -40,4 +44,8 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+<<<<<<< HEAD
         publish_dir: ./out
+=======
+        publish_dir: ./out
+>>>>>>> 0c4d3b3de955eab487e19a0f05275c7b47bf86d1
