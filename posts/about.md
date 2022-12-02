@@ -8,11 +8,13 @@ description: '著者紹介です'
 
 image: '使えなくなったかも'
 
+categories: ['駄文']
+
 ---
 
 このページは随時更新されます．
 
-
+## 目次
 
 ## このページをつくってるひと
 
@@ -27,6 +29,7 @@ image: '使えなくなったかも'
   上にあるものほど得意です．
 
 - やってること
+
   ジャンル的にはHRI，HCIっていうんでしょうか．
   駅にロボットを置いて観察したりしています．
 
@@ -36,7 +39,7 @@ image: '使えなくなったかも'
 
 ## 各種リンク
 
-- [Twitter](https://twitter.com/ghoqqm
+- [Twitter](https://twitter.com/ghoqqm)
 - [Github](https://github.com/Endowsan)　
 
 ## なんでこのページつくったんですか？
