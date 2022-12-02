@@ -29,12 +29,6 @@ const Post = ({ frontMatter,content}) => {
     return (
         <div className="prose prose-lg max-w-none">
         <div className="border">
-          <img
-            src={frontMatter.image}
-            width="1200"
-            height="700"
-            alt={frontMatter.title}
-          />
         </div>
         <h1 className="mt-12">{frontMatter.title}</h1>
         <span>{frontMatter.date}</span>
