@@ -7,11 +7,15 @@ const Header = () => {
         <Link href="/">
           endow7.com
         </Link>
-        <div>Link</div>
+        <Link href="/posts/about.md">
+          About
+        </Link>
         <Link href="https://github.com/Endowsan">
           Github
         </Link>
-        <div>Link</div>
+        <Link href="https://twitter.com/ghoqqm">
+          Twitter
+        </Link>
       </div>
     </header>
   );
