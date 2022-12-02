@@ -5,10 +5,10 @@ const PostCard = ({post}) => {
     return (
         <Link href={`/posts/${post.slug}`}>
             <div className = 'border rounded-lg'>
-                <Image
-                    src = {`/${post.frontMatter.image}`}
-                    width = {1200}
-                    height = {700}
+                <img
+                    src = {post.frontMatter.image}
+                    width = "1200"
+                    height = "700"
                     alt = {post.frontMatter.title}
                 />
             </div>
