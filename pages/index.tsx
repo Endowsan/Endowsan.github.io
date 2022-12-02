@@ -31,7 +31,7 @@ export default function Home({posts}:{posts:any}) {
   return (
     <div className="my-8">
       <div className='grid grid-cols-3 gap-4'>
-        {posts.map(({post}:{post:any}) => (
+        {posts.map((post:any) => (
           <PostCard key = {post.slug} post = {post}/>
         ))}
       </div>
