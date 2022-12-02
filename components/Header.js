@@ -5,7 +5,11 @@ const Header = () => {
     <header className="sticky top-0 border-b z-10 bg-white">
       <div className="max-w-4xl mx-auto flex justify-between items-center h-12">
         <Link href="/">
-          LOGO
+          endow7.com
+        </Link>
+        <div>Link</div>
+        <Link href="https://github.com/Endowsan">
+          Github
         </Link>
         <div>Link</div>
       </div>
