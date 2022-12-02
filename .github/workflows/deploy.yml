@@ -35,7 +35,7 @@ jobs:
       - run: yarn build
       - run: yarn export
       - name: add CNAME
-        run: cp ./path/to/CNAME ./out/
+        run: cp ./CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
