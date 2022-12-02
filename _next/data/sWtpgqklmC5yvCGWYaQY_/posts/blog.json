@@ -1,0 +1,1 @@
+{"pageProps":{"frontMatter":{"title":"Next.jsでmarkdownブログを構築","date":"2022-11-03","description":"Next.jsでmarkdownファイルを利用したブログの構築手順を解説しています。","image":"gahaku2.png"},"content":"\nNext.js を使って Markdown のブログサイトの構築を一から行なっていきます。\n\n## Next.js の準備\n\n### プロジェクトの作成\n\nnpx create-next-app コマンドを利用して Next.js プロジェクトの作成を行います。"},"__N_SSG":true}
