@@ -7,7 +7,7 @@ const Header = () => {
         <Link href="/">
           endow7.com
         </Link>
-        <Link href="/posts/about.md">
+        <Link href="/posts/about">
           About
         </Link>
         <Link href="https://github.com/Endowsan">

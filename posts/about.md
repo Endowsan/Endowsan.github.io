@@ -19,33 +19,24 @@ image: '使えなくなったかも'
 えんどうです．よろしくおねがいします．
 
 - 触ったことのある言語
-  
   - Python
-  
   - JavaScript
-  
   - GAS
-  
   - C#
   
   上にあるものほど得意です．
 
 - やってること
-  
-  ジャンル的に言えばHRI，HCIとかになるんでしょうか．
-  
+  ジャンル的にはHRI，HCIっていうんでしょうか．
   駅にロボットを置いて観察したりしています．
 
 - 興味･趣味
-  
   - eスポーツ(見る/する どっちも)
-  
   - 漫画
 
 ## 各種リンク
 
-- [Twitter](https://twitter.com/ghoqqm)
-
+- [Twitter](https://twitter.com/ghoqqm
 - [Github](https://github.com/Endowsan)　
 
 ## なんでこのページつくったんですか？
