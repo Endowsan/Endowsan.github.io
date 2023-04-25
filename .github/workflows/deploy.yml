@@ -44,8 +44,6 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: yarn build
       - run: yarn export
-      - name: add CNAME
-        run: cp ./static/CNAME ./out/
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
